@@ -1,0 +1,4 @@
+D:\Work\Smart home\Smart-home\Smart-home\Smart-home\obj\Debug\netcoreapp3.1\Smart-home.csprojAssemblyReference.cache
+D:\Work\Smart home\Smart-home\Smart-home\Smart-home\obj\Debug\netcoreapp3.1\Smart-home.csproj.CoreCompileInputs.cache
+D:\Work\Smart home\Smart-home\Smart-home\Smart-home\obj\Debug\netcoreapp3.1\Smart-home.AssemblyInfoInputs.cache
+D:\Work\Smart home\Smart-home\Smart-home\Smart-home\obj\Debug\netcoreapp3.1\Smart-home.AssemblyInfo.cs
