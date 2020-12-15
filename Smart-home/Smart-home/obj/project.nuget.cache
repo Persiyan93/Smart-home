@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "+NN27fvIw+qz0MYSeVwMp1pAzbI2JoIPlJdG6mFcfi05KGQcrKx21psPtLXpqSXTO0N79oT765k63zI4fVKAEw==",
+  "dgSpecHash": "16X5n4bJa+/F6zo2cOCcBEU29AIBoveQ2Dtv790XayiUxkdGT0NTefF/vwPJynbAn4njhi/r1bRVnSQu2OZoOg==",
   "success": true,
   "projectFilePath": "D:\\Work\\Smart home\\Smart-home\\Smart-home\\Smart-home\\Smart-home.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\persi\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\persi\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\persi\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\5.0.0-rtm.20519.4\\runtime.linux-arm.runtime.native.system.io.ports.5.0.0-rtm.20519.4.nupkg.sha512",
+    "C:\\Users\\persi\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\5.0.0-rtm.20519.4\\runtime.linux-arm64.runtime.native.system.io.ports.5.0.0-rtm.20519.4.nupkg.sha512",
+    "C:\\Users\\persi\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\5.0.0-rtm.20519.4\\runtime.linux-x64.runtime.native.system.io.ports.5.0.0-rtm.20519.4.nupkg.sha512",
+    "C:\\Users\\persi\\.nuget\\packages\\runtime.native.system.io.ports\\5.0.0\\runtime.native.system.io.ports.5.0.0.nupkg.sha512",
+    "C:\\Users\\persi\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\5.0.0-rtm.20519.4\\runtime.osx-x64.runtime.native.system.io.ports.5.0.0-rtm.20519.4.nupkg.sha512",
+    "C:\\Users\\persi\\.nuget\\packages\\system.io.ports\\5.0.0\\system.io.ports.5.0.0.nupkg.sha512",
+    "C:\\Users\\persi\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\persi\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
