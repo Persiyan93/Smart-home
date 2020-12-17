@@ -14,9 +14,36 @@ namespace Smart_home
         static void Main(string[] args)
 
         {
-            serialPort = new SerialPort();
+            byte[] p = { 10, 11, 12, 13 };
+            Console.WriteLine(p);
+            serialPort = new SerialPort("COM3", 9600);
+            serialPort.ReadTimeout = 1500;
+            serialPort.WriteTimeout = 1500;
+            serialPort.Open();
+            serialPort.Write(p, 0, 2);
+            while (true)
+            {
+                Read();
+            }
+        }
+        public static void Read()
+        {
+            try
+            {
+                string message = serialPort.ReadLine();
+                Console.WriteLine(message);
+
+            }
+            catch (Exception)
+            {
+                serialPort.Close();
+                Console.Write("exception");
+                return;
+            }
+
         }
     }
+
 }
 
 
