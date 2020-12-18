@@ -19,8 +19,21 @@ namespace Smart_home
             serialPort = new SerialPort("COM3", 9600);
             serialPort.ReadTimeout = 1500;
             serialPort.WriteTimeout = 1500;
+            string comand = Console.ReadLine();
+            string temp=null;
+            switch (comand)
+            {
+                case "off":
+                    temp = "0";
+                    break;
+                case "on":
+                    temp = "1";
+                    break;
+                default:
+                    break;
+            }
             serialPort.Open();
-            serialPort.Write(p, 0, 2);
+            serialPort.WriteLine(temp);
             while (true)
             {
                 Read();
