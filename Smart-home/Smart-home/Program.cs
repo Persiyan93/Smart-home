@@ -17,8 +17,8 @@ namespace Smart_home
             byte[] p = { 10, 11, 12, 13 };
             Console.WriteLine(p);
             serialPort = new SerialPort("COM3", 9600);
-            serialPort.ReadTimeout = 1500;
-            serialPort.WriteTimeout = 1500;
+            serialPort.ReadTimeout = 3000 ;
+            serialPort.WriteTimeout = 3000;
            
             string temp=null;
            
@@ -39,7 +39,7 @@ namespace Smart_home
                     default:
                         break;
                 }
-                Read();
+               
             }
         }
         public static void Read()
@@ -60,20 +60,29 @@ namespace Smart_home
         }
         public static void Send()
         {
-            string comand = Console.ReadLine();
-            string temp = null;
-            switch (comand)
+            string comand;
+            while ((comand=Console.ReadLine())!="exit")
             {
-                case "off":
-                    temp = "0";
-                    break;
-                case "on":
-                    temp = "1";
-                    break;
-                default:
-                    break;
+                string temp = null;
+                switch (comand)
+                {
+                    case "off":
+                        temp = "0";
+                        break;
+                    case "on":
+                        temp = "1";
+                        break;
+                    default:
+                        break;
+                }
+                Console.WriteLine(temp);
+                serialPort.WriteLine(temp);
+                Read();
+
             }
-            serialPort.WriteLine(temp);
+          
+            
+            
         }
     }
 
