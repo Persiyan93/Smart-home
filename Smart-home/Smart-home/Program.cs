@@ -36,6 +36,19 @@ namespace Smart_home
             serialPort.WriteLine(temp);
             while (true)
             {
+                string job = Console.ReadLine();
+                switch (job)
+                {
+                    case "read":
+                        Read();
+                        break;
+                    case "send":
+                       Send
+                        break;
+
+                    default:
+                        break;
+                }
                 Read();
             }
         }
@@ -53,6 +66,10 @@ namespace Smart_home
                 Console.Write("exception");
                 return;
             }
+
+        }
+        public static void Send()
+        {
 
         }
     }
